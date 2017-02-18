@@ -1,0 +1,11 @@
+[
+  { "keys": ["f9"], "command": "expand_fqcn" },
+  { "keys": ["shift+f9"], "command": "expand_fqcn", "args": {"leading_separator": true} },
+  { "keys": ["f10"], "command": "find_use" },
+  { "keys": ["f8"], "command": "import_namespace" },
+  { "keys": ["shift+f12"], "command": "goto_definition_scope" },
+  { "keys": ["f7"], "command": "insert_php_constructor_property" },
+  { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
+  { "keys": ["f6"], "command": "run_phpunit_test" },
+  { "keys": ["f7"], "command": "run_all_phpunit_tests" },
+]
