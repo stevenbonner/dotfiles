@@ -70,3 +70,11 @@ dataurl() {
   fi
   echo "data:${MIMETYPE};base64,$(openssl base64 -in "$1" | tr -d '\n')"
 }
+
+goto() {
+  cd ~/$1
+}
+
+gosites() {
+  cd ~/Code/Sites
+}

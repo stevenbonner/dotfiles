@@ -10,6 +10,10 @@ EXTRA_DIR="$HOME/.extra"
 
 [ -d "$DOTFILES_DIR/.git" ] && git --work-tree="$DOTFILES_DIR" --git-dir="$DOTFILES_DIR/.git" pull origin master
 
+if [ ! -d ~/Code ]; then
+  mkdir -p ~/Code/Sites
+fi
+
 # Bunch of symlinks
 
 ln -sfv "$DOTFILES_DIR/runcom/.bash_profile" ~
@@ -33,6 +37,7 @@ if [ "$(uname)" == "Darwin" ]; then
   . "$DOTFILES_DIR/install/gem.sh"
   . "$DOTFILES_DIR/install/dev/composer.sh"
   . "$DOTFILES_DIR/install/dev/homestead.sh"
+  . "$DOTFILES_DIR/install/dev/react.sh"
   ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
 
   ln -sfv "$DOTFILES_DIR/sublime" "~/Library/Application Support/Sublime Text 3/Packages/User/"

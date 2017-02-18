@@ -18,6 +18,8 @@ apps=(
   ffmpeg
   fasd
   gifsicle
+  node
+  watchman
   git
   git-extras
   gnu-sed --with-default-names
@@ -27,6 +29,8 @@ apps=(
   imagemagick
   jq
   mackup
+  postgres
+  mysql
   peco
   psgrep
   python
