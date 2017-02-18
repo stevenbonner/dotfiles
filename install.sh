@@ -38,6 +38,9 @@ if [ "$(uname)" == "Darwin" ]; then
   ln -sfv "$DOTFILES_DIR/sublime" "~/Library/Application Support/Sublime Text 3/Packages/User/"
 fi
 
+mkdir ~/.ssh
+curl -o ~/.ssh/id_rsa.pub https://github.com/dbonner1987.keys
+
 # Run tests
 
 bats test/*.bats
