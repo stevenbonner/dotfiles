@@ -7,9 +7,9 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
-	<string>Material-Theme</string>
+	<string>Material-Theme-Darker</string>
 	<key>semanticClass</key>
-	<string>material.theme.default</string>
+	<string>material.theme.darker</string>
 	<key>settings</key>
 	<array>
 <dict>
@@ -36,7 +36,7 @@
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#263239FF</string>
+<string>#212122FF</string>
 <key>foreground</key>
 <string>#FFFFFFFF</string>
 <key>caret</key>
@@ -48,33 +48,33 @@
 			<key>settings</key>
 			<dict>
 				<key>activeGuide</key>
-				<string>#80CBC470</string>
+				<string>#FFFFFF50</string>
 				<key>background</key>
-				<string>#263238</string>
+				<string>#212121</string>
 				<key>caret</key>
 				<string>#FFCC00</string>
 				<key>findHighlight</key>
 				<string>#F8E71C</string>
 				<key>foreground</key>
-				<string>#eeffff</string>
+				<string>#eeffffff</string>
 				<key>guide</key>
-				<string>#37474F80</string>
+				<string>#42424270</string>
 				<key>gutterForeground</key>
-				<string>#37474F</string>
+				<string>#424242</string>
 				<key>invisibles</key>
 				<string>#65737e</string>
 				<key>lineHighlight</key>
 				<string>#00000050</string>
 				<key>popupCss</key>
-				<string><![CDATA[ html { background-color: #263238; color: #eeffff; padding: 16px; } a { color: #B2CCD6; line-height: 16px; } .error, .deleted { color: #FF5370; } .success, .inserted { color: #C3E88D; } .warning, .modified { color: #FFCB6B; } .type { color: #89DDFF; font-style: italic; } .param { color: #F78C6C; } .current { text-decoration: underline; } ]]></string>
+				<string><![CDATA[ html { background-color: #212121; color: #eeffffff; padding: 16px; } a { color: #B2CCD6; line-height: 16px; } .error, .deleted { color: #FF5370; } .success, .inserted { color: #C3E88D; } .warning, .modified { color: #FFCB6B; } .type { color: #89DDFF; font-style: italic; } .param { color: #F78C6C; } .current { text-decoration: underline; } ]]></string>
 				<key>selection</key>
-				<string>#80CBC420</string>
+				<string>#61616150</string>
 				<key>selectionBorder</key>
-				<string>#80CBC420</string>
+				<string>#61616150</string>
 				<key>shadow</key>
 				<string>#00000010</string>
 				<key>stackGuide</key>
-				<string>#37474Fff</string>
+				<string>#42424280</string>
 			</dict>
 		</dict>
 		<dict>
@@ -87,7 +87,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#546E7A</string>
+				<string>#4A4A4A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -98,7 +98,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#eeffff</string>
+				<string>#eeffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -576,7 +576,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#eeffff</string>
+				<string>#eeffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -786,7 +786,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#eeffff</string>
+				<string>#eeffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -810,7 +810,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#546E7A</string>
+				<string>#4A4A4A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -849,7 +849,7 @@
 				<key>background</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#eeffff</string>
+				<string>#eeffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1038,6 +1038,6 @@
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>133d1250-19c6-4565-bc93-b37fd36f7fc9</string>
+	<string>4F44C0F5-1F8D-4C52-8BAB-F0951904C1EC</string>
 </dict>
 </plist>

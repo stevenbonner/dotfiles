@@ -1,7 +1,7 @@
 # Install Browser Caskroom
 
 apps=(
-  vargrant
+  vagrant
   nsregextester
   sequel-pro
   psequel
