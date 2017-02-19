@@ -45,6 +45,7 @@ apps=(
   wifi-password
   known_hosts
   hostess
+  yarn
 )
 
 brew install "${apps[@]}"
