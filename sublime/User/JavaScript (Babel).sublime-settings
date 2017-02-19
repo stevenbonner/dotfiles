@@ -1,0 +1,8 @@
+{
+	"extensions":
+	[
+		"js",
+        "vue"
+	],
+    "tab_size": 2
+}

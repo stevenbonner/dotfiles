@@ -39,7 +39,7 @@ Bundle 'jlanzarotta/bufexplorer'
 
 " Completion & snippets
 
-Plugin 'SirVer/ultisnips'
+" Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
 " JavaScript

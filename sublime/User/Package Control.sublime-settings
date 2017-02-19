@@ -1,0 +1,42 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"AlignTab",
+		"Babel",
+		"Babel Snippets",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"DocBlockr",
+		"Emmet",
+		"ESLint",
+		"File Navigator",
+		"Function Name Display",
+		"GitGutter",
+		"Laravel Blade Highlighter",
+		"LESS",
+		"Line Endings Unify",
+		"LineEndings",
+		"Material Theme",
+		"Material Theme - Appbar",
+		"Package Control",
+		"PHP Companion",
+		"PHP-Twig",
+		"react-native-snippets",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"SublimeLinter-phpcs",
+		"TodoReview",
+		"VCS Gutter",
+		"Vue Syntax Highlight",
+		"Vuejs Complete Package",
+		"WakaTime"
+	]
+}
