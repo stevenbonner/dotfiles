@@ -31,6 +31,7 @@ ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 
 if [ "$(uname)" == "Darwin" ]; then
   . "$DOTFILES_DIR/install/brew-cask.sh"
+  . "$DOTFILES_DIR/install/brew-cask/fonts.sh"
   . "$DOTFILES_DIR/install/brew-cask/browsers.sh"
   . "$DOTFILES_DIR/install/brew-cask/dev-editors-ide.sh"
   . "$DOTFILES_DIR/install/brew-cask/dev.sh"

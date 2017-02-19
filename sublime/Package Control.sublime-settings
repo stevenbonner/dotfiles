@@ -1,9 +1,5 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-		"LineEndings"
-	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -21,7 +17,6 @@
 		"GitGutter",
 		"Laravel Blade Highlighter",
 		"LESS",
-		"LineEndings",
 		"Material Theme",
 		"Material Theme - Appbar",
 		"Package Control",
