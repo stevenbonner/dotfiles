@@ -43,6 +43,8 @@ apps=(
   vim
   wget
   wifi-password
+  known_hosts
+  hostess
 )
 
 brew install "${apps[@]}"

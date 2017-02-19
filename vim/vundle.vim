@@ -34,11 +34,11 @@ Plugin 'airblade/vim-gitgutter'
 " Syntax hightlighting & colors
 
 Plugin 'scrooloose/syntastic'
-Plugin 'altercation/vim-colors-solarized'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'jlanzarotta/bufexplorer'
 
 " Completion & snippets
 
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
