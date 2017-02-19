@@ -36,6 +36,7 @@ apps=(
   python
   composer
   homebrew/php/php71
+  homebrew/php/phpunit
   shellcheck
   ssh-copy-id
   the_silver_searcher
