@@ -11,6 +11,7 @@ apps=(
   transmit
   virtualbox
   sourcetree
+  postman
 )
 
 brew cask install "${apps[@]}"

@@ -12,11 +12,12 @@ apps=(
   glimmerblocker
   clamxav
   hammerspoon
-  macdown
-  slack
-  microsoft-office
-  spotify
   jumpcut
+  macdown
+  microsoft-office
+  skype
+  slack
+  spotify
   vlc
 )
 
