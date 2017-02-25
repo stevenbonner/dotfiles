@@ -12,6 +12,7 @@ apps=(
   virtualbox
   sourcetree
   postman
+  postico
 )
 
 brew cask install "${apps[@]}"

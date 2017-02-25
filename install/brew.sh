@@ -30,7 +30,6 @@ apps=(
   jq
   mackup
   postgres
-  mysql
   peco
   psgrep
   python
@@ -50,3 +49,4 @@ apps=(
 )
 
 brew install "${apps[@]}"
+
