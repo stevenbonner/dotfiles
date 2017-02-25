@@ -53,6 +53,9 @@ alias tree2="tree -d -L 2"
 
 alias cpwd="pwd|tr -d '\n'|pbcopy"
 
+# php
+
+alias artisan="php artisan"
 
 # npm
 
