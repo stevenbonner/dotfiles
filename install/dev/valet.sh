@@ -1,7 +1,7 @@
 # Install Laravel Valet
 
 brew unlink php70
-brew install homebrew/php/php71
+brew install homebrew/php/php71 --with-postgresql
 
 composer global require laravel/valet
 
