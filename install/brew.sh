@@ -35,7 +35,7 @@ apps=(
   python
   composer
   homebrew/php/php71
-  homebrew/php/phpunit
+  # homebrew/php/phpunit@5.7
   shellcheck
   ssh-copy-id
   the_silver_searcher
@@ -50,3 +50,4 @@ apps=(
 
 brew install "${apps[@]}"
 
+# ln -s /usr/local/bin/phpunit ../Cellar/phpunit@5.7/5.7.13/bin/phpunitat57
