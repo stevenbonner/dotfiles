@@ -16,3 +16,4 @@ packages=(
 )
 
 npm install -g "${packages[@]}"
+npm install gulp-cli -g
