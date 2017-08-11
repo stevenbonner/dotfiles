@@ -1,9 +1,13 @@
 # Shortcuts
 
 alias _="sudo"
-alias g="git"
 alias v="vim"
 alias rr="rm -rf"
+
+# Git Shortcuts
+
+alias g="git"
+alias gamend="git commit -c HEAD --amend"
 
 # Default options
 

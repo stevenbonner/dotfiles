@@ -10,7 +10,6 @@ apps=(
   github-desktop
   transmit
   virtualbox
-  sourcetree
   postman
   postico
 )

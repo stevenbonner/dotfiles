@@ -13,11 +13,14 @@ apps=(
   bash-completion2
   bats
   battery
+  bower
+  brew-gem
   coreutils
   dockutil
   ffmpeg
   fasd
   gifsicle
+  highlight
   node
   watchman
   git

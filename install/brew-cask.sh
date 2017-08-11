@@ -20,6 +20,9 @@ apps=(
   slack
   spotify
   vlc
+  rescuetime
+  # Image processing
+  imageoptim
 )
 
 brew cask install "${apps[@]}"
