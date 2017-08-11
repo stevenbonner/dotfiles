@@ -10,6 +10,7 @@ brew upgrade
 # Install packages
 
 apps=(
+  libjpeg
   bash-completion2
   bats
   battery
