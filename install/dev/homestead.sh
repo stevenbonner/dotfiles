@@ -1,7 +1,7 @@
-vagrant box add laravel/homestead
+#vagrant box add laravel/homestead
 
-git clone https://github.com/laravel/homestead.git ~/Homestead
+#git clone https://github.com/laravel/homestead.git ~/Homestead
 
-cd ~/Homestead && bash init.sh
+#cd ~/Homestead && bash init.sh
 
-cd ~/.dotfiles/
+#cd ~/.dotfiles/
