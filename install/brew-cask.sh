@@ -38,7 +38,6 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 
 apps=(
   firefox
-  firefoxnightly
   chromium
   google-chrome
   google-chrome-canary
