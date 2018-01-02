@@ -21,6 +21,7 @@ apps=(
   spotify
   vlc
   rescuetime
+  astro
   # Image processing
   imageoptim
 )
