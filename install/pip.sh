@@ -1,3 +1,3 @@
 sudo easy_install pip
-pip install git-sweep
-pip install stormssh
+sudo pip install git-sweep
+sudo pip install stormssh
