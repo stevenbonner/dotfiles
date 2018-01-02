@@ -34,6 +34,41 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 # Link Hammerspoon config
 [ -d ~/.hammerspoon ] || ln -sfv "$DOTFILES_DIR/etc/hammerspoon/" ~/.hammerspoon
 
-./brew-cask/browsers.sh
-./brew-cask/dev.sh
-./brew-cask/dev-editors-ide.sh
+# Install Browser Caskroom
+
+apps=(
+  firefox
+  firefoxnightly
+  chromium
+  google-chrome
+  google-chrome-canary
+  opera
+)
+
+brew cask install "${apps[@]}"
+
+apps=(
+  vagrant
+  nsregextester
+  sequel-pro
+  psequel
+  sip
+  iterm2
+  visual-studio-code
+  github
+  transmit
+  virtualbox
+  postman
+  postico
+  sublime-text
+)
+
+brew cask install "${apps[@]}"
+
+# Install Browser Caskroom
+
+apps=(
+  deco
+)
+
+brew cask install "${apps[@]}"
