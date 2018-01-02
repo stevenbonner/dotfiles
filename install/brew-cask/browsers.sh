@@ -2,7 +2,7 @@
 
 apps=(
   firefox
-  firefox-nightly
+  firefoxnightly
   chromium
   google-chrome
   google-chrome-canary
