@@ -7,11 +7,13 @@ apps=(
   psequel
   sip
   iterm2
-  github-desktop
+  visual-studio-code
+  github
   transmit
   virtualbox
   postman
   postico
+  sublime-text
 )
 
 brew cask install "${apps[@]}"
