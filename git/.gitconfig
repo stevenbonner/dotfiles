@@ -1,6 +1,6 @@
 [user]
-  name = David Bonner
-	email = david@continuuminteractive.com
+	name = David Bonner
+	email = davidianbonner@users.noreply.github.com
 
 [github]
   user = dbonner1987
@@ -100,3 +100,8 @@
 	cmd = /usr/local/bin/ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true
 
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process

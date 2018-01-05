@@ -54,6 +54,7 @@ apps=(
   iterm2
   visual-studio-code
   github
+  sourcetree
   transmit
   virtualbox
   postman
