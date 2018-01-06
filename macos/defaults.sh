@@ -1,4 +1,4 @@
-COMPUTER_NAME="DavidIanBonner"
+COMPUTER_NAME="Continuum"
 
 osascript -e 'tell application "System Preferences" to quit'
 
@@ -173,7 +173,7 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Finder: show all filename extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+defaults write NSGlobalDomain AppleShowAllExtensions -bool false
 
 # Finder: show status bar
 defaults write com.apple.finder ShowStatusBar -bool true
