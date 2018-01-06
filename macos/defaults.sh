@@ -1,4 +1,4 @@
-COMPUTER_NAME="DavidIanBonner"
+COMPUTER_NAME="Continuum"
 
 osascript -e 'tell application "System Preferences" to quit'
 
