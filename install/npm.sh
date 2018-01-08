@@ -1,6 +1,6 @@
 brew install nvm
 . "${DOTFILES_DIR}/system/.nvm"
-nvm install 6
+nvm install 8.9.4
 
 # Globally install with npm
 
