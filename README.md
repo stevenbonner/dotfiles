@@ -2,7 +2,28 @@
 
 These are my dotfiles. Take anything you want, but at your own risk.
 
-Documentation is WIP.
+Run 
+
+```
+sudo softwareupdate -i -a
+xcode-select --install
+git clone https://github.com/davidianbonner/dotfiles.git ~/.dotfiles
+source ~/.dotfiles/install.sh
+```
+
+## Settings
+
+```
+dotfiles macos
+dotfiles dock
+dotfiles install vundle
+```
+
+If Dropbox has synced, run Mackup:
+
+```
+mackup restore
+```
 
 #### Inspired and forked from [WebPro dotfiles](https://github.com/webpro/dotfiles).
 
