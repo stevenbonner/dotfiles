@@ -60,6 +60,8 @@ apps=(
   postman
   postico
   sublime-text
+  sketch
+  tableplus
 )
 
 brew cask install "${apps[@]}"
