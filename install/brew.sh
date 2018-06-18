@@ -38,7 +38,7 @@ apps=(
   psgrep
   python
   composer
-  homebrew/php/php71
+  # homebrew/php/php71
   # homebrew/php/phpunit@5.7
   shellcheck
   ssh-copy-id

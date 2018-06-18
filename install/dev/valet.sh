@@ -1,8 +1,16 @@
 # Install Laravel Valet
 
-brew unlink php70
-brew install homebrew/php/php71 --with-postgresql
-brew install homebrew/php/php71-mcrypt
+
+brew install php@7.2
+brew install autoconf
+
+# PHP
+pecl install xdebug
+pecl install imagick
+pecl install mcrypt
+pecl install postgresql
+
+brew cleanup -s
 
 composer global require laravel/valet
 
