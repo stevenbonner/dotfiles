@@ -1,6 +1,6 @@
 brew install nvm
 . "${DOTFILES_DIR}/system/.nvm"
-nvm install 8.9.4
+nvm install 8.12.0
 
 # Globally install with npm
 
@@ -12,7 +12,6 @@ packages=(
   svgo
   tldr
   underscore-cli
-  vtop
 )
 
 npm install -g "${packages[@]}"

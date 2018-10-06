@@ -33,7 +33,6 @@ if [ "$(uname)" == "Darwin" ]; then
   . "$DOTFILES_DIR/install/brew-cask.sh"
   . "$DOTFILES_DIR/install/gem.sh"
   . "$DOTFILES_DIR/install/dev/composer.sh"
-  . "$DOTFILES_DIR/install/dev/homestead.sh"
   . "$DOTFILES_DIR/install/dev/react.sh"
   ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
 

@@ -1,6 +1,5 @@
 # Install Laravel Valet
 
-
 brew install php@7.2
 brew install autoconf
 
