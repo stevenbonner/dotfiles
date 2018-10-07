@@ -75,6 +75,6 @@ goto() {
   cd ~/$1
 }
 
-gosites() {
-  cd ~/Code/Sites
+gocode() {
+  cd ~/Code
 }
