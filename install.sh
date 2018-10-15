@@ -34,6 +34,7 @@ if [ "$(uname)" == "Darwin" ]; then
   . "$DOTFILES_DIR/install/gem.sh"
   . "$DOTFILES_DIR/install/dev/composer.sh"
   . "$DOTFILES_DIR/install/dev/react.sh"
+  . "$DOTFILES_DIR/install/dev/valet.sh"
   ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
 
   ln -sfv "$DOTFILES_DIR/sublime/*" '~/Library/Application Support/Sublime Text 3/Packages/User/'

@@ -16,8 +16,8 @@ composer global require laravel/valet
 valet install
 
 # Incase it is installed
-brew unlink mysql
+# brew unlink mysql
 
-brew install mariadb
+# brew install mariadb
+brew install mysql@5.7
 brew install postgresql
-brew install homebrew/php/wp-cli
