@@ -11,7 +11,7 @@ EXTRA_DIR="$HOME/.extra"
 [ -d "$DOTFILES_DIR/.git" ] && git --work-tree="$DOTFILES_DIR" --git-dir="$DOTFILES_DIR/.git" pull origin master
 
 if [ ! -d ~/Code ]; then
-  mkdir -p ~/Code/Sites
+  mkdir -p ~/Code
 fi
 
 # Bunch of symlinks
@@ -33,15 +33,15 @@ if [ "$(uname)" == "Darwin" ]; then
   . "$DOTFILES_DIR/install/brew-cask.sh"
   . "$DOTFILES_DIR/install/gem.sh"
   . "$DOTFILES_DIR/install/dev/composer.sh"
-  . "$DOTFILES_DIR/install/dev/homestead.sh"
   . "$DOTFILES_DIR/install/dev/react.sh"
+  . "$DOTFILES_DIR/install/dev/valet.sh"
   ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
 
   ln -sfv "$DOTFILES_DIR/sublime/*" '~/Library/Application Support/Sublime Text 3/Packages/User/'
 fi
 
 mkdir ~/.ssh
-curl -o ~/.ssh/id_rsa.pub https://github.com/dbonner1987.keys
+# curl -o ~/.ssh/id_rsa.pub https://github.com/davidianbonner.keys
 
 # Run tests
 

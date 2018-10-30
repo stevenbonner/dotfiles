@@ -1,19 +1,18 @@
 # Install Homebrew
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-#brew tap homebrew/versions
-#brew tap homebrew/dupes
-brew tap Goles/battery
 brew update
 brew upgrade
 
 # Install packages
 
+# Decide if we want these later:
+# battery - brew tap Goles/battery
+
 apps=(
   libjpeg
   bash-completion2
   bats
-  battery
   bower
   brew-gem
   coreutils
@@ -38,8 +37,6 @@ apps=(
   psgrep
   python
   composer
-  homebrew/php/php71
-  # homebrew/php/phpunit@5.7
   shellcheck
   ssh-copy-id
   the_silver_searcher
@@ -53,5 +50,3 @@ apps=(
 )
 
 brew install "${apps[@]}"
-
-# ln -s /usr/local/bin/phpunit ../Cellar/phpunit@5.7/5.7.13/bin/phpunitat57
