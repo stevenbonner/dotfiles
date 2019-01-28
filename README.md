@@ -8,6 +8,11 @@ Run
 sudo softwareupdate -i -a
 xcode-select --install
 git clone https://github.com/davidianbonner/dotfiles.git ~/.dotfiles
+
+// Update the username and email settings in ./git/.gitconfig
+
+// Remove or add any apps in ./install/brew-cask.sh
+
 source ~/.dotfiles/install.sh
 ```
 
