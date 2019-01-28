@@ -63,4 +63,5 @@ export OS DOTFILES_DIR EXTRA_DIR
 
 export PATH="/usr/local/opt/php@7.1/bin:$PATH"
 export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
+export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
