@@ -17,7 +17,7 @@ $ xcode-select --install
 Clone the source (or your own fork)
 
 ```bash
-git clone https://github.com/davidianbonner/dotfiles.git ~/.dotfiles
+$ git clone https://github.com/davidianbonner/dotfiles.git ~/.dotfiles
 ```
 
 Update the username and email settings in `./git/.gitconfig`
@@ -27,25 +27,25 @@ Remove or add any apps in `./install/brew-cask.sh`
 Install the dotfiles
 
 ```bash
-source ~/.dotfiles/install.sh
+$ source ~/.dotfiles/install.sh
 ```
 
 ## Settings
 
 These commands set up opinionated defaults for Mac, the doc and install vundle plugins
 
-```
-dotfiles macos
-dotfiles dock
-dotfiles install vundle
+```bash
+$ dotfiles macos
+$ dotfiles dock
+$ dotfiles install vundle
 ```
 
 ## Mackup
 
 Mackup is included for settings backup/sync. If Dropbox has synced, run Mackup:
 
-```
-mackup restore
+```bash
+$ mackup restore
 ```
 
 ## Credits
