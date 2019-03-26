@@ -2,30 +2,51 @@
 
 These are my dotfiles. Take anything you want, but at your own risk.
 
-Run
+Update your OS
 
+```bash
+$ sudo softwareupdate -i -a
 ```
-sudo softwareupdate -i -a
-xcode-select --install
-git clone https://github.com/stevenbonner/dotfiles.git ~/.dotfiles
-source ~/.dotfiles/install.sh
+
+Install Xcode
+
+```bash
+$ xcode-select --install
+```
+
+Clone the source (or your own fork)
+
+```bash
+$ git clone https://github.com/davidianbonner/dotfiles.git ~/.dotfiles
+```
+
+Update the username and email settings in `./git/.gitconfig`
+
+Remove or add any apps in `./install/brew-cask.sh`
+
+Install the dotfiles
+
+```bash
+$ source ~/.dotfiles/install.sh
 ```
 
 ## Settings
 
-```
-dotfiles macos
-dotfiles dock
-dotfiles install vundle
+These commands set up opinionated defaults for Mac, the doc and install vundle plugins
+
+```bash
+$ dotfiles macos
+$ dotfiles dock
+$ dotfiles install vundle
 ```
 
-If Dropbox has synced, run Mackup:
+## Mackup
 
-```
-mackup restore
-```
+Mackup is included for settings backup/sync. If Dropbox has synced, run Mackup:
 
-#### Inspired and forked from [WebPro dotfiles](https://github.com/webpro/dotfiles).
+```bash
+$ mackup restore
+```
 
 ## Credits
 
