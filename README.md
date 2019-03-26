@@ -2,12 +2,12 @@
 
 These are my dotfiles. Take anything you want, but at your own risk.
 
-Run 
+Run
 
 ```
 sudo softwareupdate -i -a
 xcode-select --install
-git clone https://github.com/davidianbonner/dotfiles.git ~/.dotfiles
+git clone https://github.com/stevenbonner/dotfiles.git ~/.dotfiles
 source ~/.dotfiles/install.sh
 ```
 
