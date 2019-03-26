@@ -26,6 +26,7 @@ apps=(
   google-chrome-canary
   opera
   vagrant
+  notion
   sequel-pro
   psequel
   iterm2
@@ -49,7 +50,6 @@ apps=(
   quicklook-json
   qlprettypatch
   quicklook-csv
-  qlimagesize
   webpquicklook
   suspicious-package
 )
