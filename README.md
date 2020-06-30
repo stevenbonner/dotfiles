@@ -17,7 +17,7 @@ $ xcode-select --install
 Clone the source (or your own fork)
 
 ```bash
-$ git clone https://github.com/davidianbonner/dotfiles.git ~/.dotfiles
+$ git clone https://github.com/stevenbonner/dotfiles.git ~/.dotfiles
 ```
 
 Update the username and email settings in `./git/.gitconfig`
